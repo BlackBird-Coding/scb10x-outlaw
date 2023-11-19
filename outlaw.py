@@ -24,7 +24,7 @@ from langchain.schema import HumanMessage, SystemMessage
 from langchain.chains import ConversationChain
 from sklearn.metrics import silhouette_score
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your-api-key"
 
 
 class Outlaw:
